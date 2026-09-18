@@ -12,11 +12,12 @@ body {
 
 .cabecalho {
     min-height: 100vh;
-    background: linear-gradient(rgba(9, 0, 20, .75), rgba(9, 0, 20, .9)), radial-gradient(circle at top, #8a2be2, #090014);
+    background:
+        linear-gradient(rgba(9, 0, 20, .65), rgba(9, 0, 20, .9)),
+        url('./img/festival.jpg') center/cover no-repeat;
     display: flex;
-    flex-direction: column
+    flex-direction: column;
 }
-
 .navegacao {
     display: flex;
     justify-content: space-between;
