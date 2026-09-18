@@ -18,6 +18,7 @@ body {
     display: flex;
     flex-direction: column;
 }
+
 .navegacao {
     display: flex;
     justify-content: space-between;
@@ -167,4 +168,36 @@ body {
         flex-direction: column;
         text-align: center
     }
+}
+
+.formulario {
+    background: #110021;
+    text-align: center;
+}
+
+.formulario p {
+    text-align: center;
+    margin: -20px 0 30px 0;
+    color: #bbb;
+}
+
+.formulario form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.formulario input {
+    padding: 16px;
+    border-radius: 12px;
+    border: 1px solid #7b2cff;
+    background: #16042b;
+    color: #fff;
+    outline: none;
+}
+
+.formulario input::placeholder {
+    color: #888;
 }
